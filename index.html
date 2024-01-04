@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5-Day Forecast</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Source+Sans+3&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header><h1>Five Day Forecast</h1></header>
+
+    <div class="container">
+        <div class="city-input">
+            <h3>Search Location</h3>
+            <input type="text" placeholder="City">
+            <button id="btnGet" class="search-button">Search</button>
+            <div class="separator"></div>
+            <div class="drop-down">
+                <button class="search-history">Search History</button>
+                <div class="drop-down-content">
+                    <button id="history-1 btnHistory" class="his-button"></button>
+                    <button id="history-2 btnHistory" class="his-button"></button>
+                    <button id="history-3 btnHistory" class="his-button"></button>
+                    <button id="history-4 btnHistory" class="his-button"></button>
+                    <button id="history-5 btnHistory" class="his-button"></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="weather-data">
+            <div class="city-container">
+                <div class="city-info">
+                    
+                </div>
+            </div>
+            <div class="weather-display-section">
+                <h2>5-Day Forecast</h2>
+
+                <ul class="weather-cards">
+                    
+                    <li id="cardImg-1" class="card">
+                        <h3>Weather Label</h3>
+                        <p class="card-text">Temperature</p>
+                        <p class="card-text">Wind</p>
+                        <p class="card-text">Humidity</p>
+
+                    </li>
+
+                    <li id="cardImg-2" class="card">
+                        <h3>Weather Label</h3>
+                        <p class="card-text">Temperature</p>
+                        <p class="card-text">Wind</p>
+                        <p class="card-text">Humidity</p>
+                    </li>
+
+                    <li id="cardImg-3" class="card">
+                        <h3>Weather Label</h3>
+                        <p class="card-text">Temperature</p>
+                        <p class="card-text">Wind</p>
+                        <p class="card-text">Humidity</p>
+                    </li>
+
+                    <li id="cardImg-4" class="card">
+                        <h3>Weather Label</h3>
+                        <p class="card-text">Temperature</p>
+                        <p class="card-text">Wind</p>
+                        <p class="card-text">Humidity</p>
+                    </li>
+
+                    <li id="cardImg-5" class="card">
+                        <h3>Weather Label</h3>
+                        <p class="card-text">Temperature</p>
+                        <p class="card-text">Wind</p>
+                        <p class="card-text">Humidity</p>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
